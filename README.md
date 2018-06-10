@@ -19,7 +19,6 @@ This repo requires you to have global installations of [gulp](http://gulpjs.com/
 # Install gulp globally
 npm install -g gulp
 ```
-
 # Run Scripts
 gulp build html
 ```
