@@ -15,10 +15,17 @@ npm install
 
 ## Installing gulp and http server
 This repo requires you to have global installations of [gulp](http://gulpjs.com/).
+
+## Install gulp cli + gulp globally
+npm install gulp-cli -g
+npm install gulp -g
+
+## Create new gulpfile
+touch gulpfile.js
 ```
-# Install gulp globally
-npm install -g gulp
-```
+
 # Run Scripts
+```
 gulp build html
+gulp build2 orig
 ```
