@@ -1,0 +1,22 @@
+{
+  "name": "js_arche",
+  "version": "1.0.0",
+  "description": "JS Rearchitecture Project",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "build": "npm run clean && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ljcecil/js_arche"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-useref": "^3.1.5"
+  }
+}
